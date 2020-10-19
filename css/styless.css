@@ -1,0 +1,140 @@
+#title{
+  background-color: #ef8172;
+  color:#fff
+}
+.container-fluid{
+  padding:3% 10%  ;
+
+}
+
+h1{
+  font-family: 'Titillium Web', sans-serif;
+  font-size:3rem;
+  line-height:1.5;
+  padding-left: 10rem;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size:1.2rem;
+  line-height:1.5;
+}
+h3{
+  font-family: monospace;cursive;
+  font-size:225%
+}
+p{
+  color:grey;
+}
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+  font-size:23px;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1rem;
+  font-family: monospace;
+  color:brown;
+}
+
+.button-ji{
+  padding-left: 10rem;
+}
+/* download butoon */
+.download-button{
+  margin:5% 3% 5% 0;;
+
+}
+/* title images */
+.title-image{
+  position:relative;
+  left:190px;
+  top:100px;
+  width:40%;
+  transform:rotate(28deg);
+
+}
+/* features section */
+#features{
+  background-color: #fff;
+  padding:7% 15%;
+  font-size: 0.7rem;
+  position:relative;
+}
+.feature-box{
+  text-align:center;
+  padding:3%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:red;
+}
+#testimonials{
+  padding:2% 20% 10%;
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin:10px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width:12%;
+  margin:20px 20px 15px;
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+/* CTA section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color:#fff;
+  padding:7% 15%;
+}
+.cta-heading{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+.btn-dark{
+  margin:5% 2%;
+}
+.btn-light{
+  margin:5% 2%;
+}
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin:20px 10px;
+}
+@media( max-width:900px){
+  text-align:center;
+}
+
+  .image-title{
+    position:static;
+    transform:rotate(0);
+  }
+}
